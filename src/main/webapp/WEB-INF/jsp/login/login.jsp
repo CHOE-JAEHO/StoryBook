@@ -13,10 +13,10 @@
   <div id="naver_id_login"></div>
   <!-- //네이버 로그인 버튼 노출 영역 -->
   <script type="text/javascript">
-  	var naver_id_login = new naver_id_login("YOUR_CLIENT_ID", "YOUR_CALLBACK_URL");
+  	var naver_id_login = new naver_id_login("384uYGqZLs8OEPjtOrX3", "http://61.72.133.169/");
   	var state = naver_id_login.getUniqState();
   	naver_id_login.setButton("white", 2,40);
-  	naver_id_login.setDomain("YOUR_SERVICE_URL");
+  	naver_id_login.setDomain("http://61.72.133.169/");
   	naver_id_login.setState(state);
   	naver_id_login.setPopup();
   	naver_id_login.init_naver_id_login();
